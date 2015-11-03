@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4ECE931BE85D0A00C36B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE921BE85D0A00C36B4B /* main.m */; };
+		BA4ECE961BE85D0A00C36B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE951BE85D0A00C36B4B /* AppDelegate.m */; };
+		BA4ECE991BE85D0A00C36B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE981BE85D0A00C36B4B /* ViewController.m */; };
+		BA4ECE9C1BE85D0A00C36B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECE9A1BE85D0A00C36B4B /* Main.storyboard */; };
+		BA4ECE9F1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE9D1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld */; };
+		BA4ECEA11BE85D0A00C36B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */; };
+		BA4ECEA41BE85D0A00C36B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */; };
+		BA4ECEAF1BE85D0A00C36B4B /* idevicewallsappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECEAE1BE85D0A00C36B4B /* idevicewallsappTests.m */; };
+		BA4ECEBA1BE85D0A00C36B4B /* idevicewallsappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECEB91BE85D0A00C36B4B /* idevicewallsappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4ECEAB1BE85D0A00C36B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4ECE861BE85D0A00C36B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4ECE8D1BE85D0A00C36B4B;
+			remoteInfo = idevicewallsapp;
+		};
+		BA4ECEB61BE85D0A00C36B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4ECE861BE85D0A00C36B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4ECE8D1BE85D0A00C36B4B;
+			remoteInfo = idevicewallsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA4ECE8E1BE85D0A00C36B4B /* idevicewallsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idevicewallsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4ECE921BE85D0A00C36B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA4ECE941BE85D0A00C36B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA4ECE951BE85D0A00C36B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA4ECE971BE85D0A00C36B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA4ECE981BE85D0A00C36B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA4ECE9B1BE85D0A00C36B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4ECE9E1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = idevicewallsapp.xcdatamodel; sourceTree = "<group>"; };
+		BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4ECEA31BE85D0A00C36B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4ECEA51BE85D0A00C36B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4ECEAA1BE85D0A00C36B4B /* idevicewallsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idevicewallsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4ECEAE1BE85D0A00C36B4B /* idevicewallsappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idevicewallsappTests.m; sourceTree = "<group>"; };
+		BA4ECEB01BE85D0A00C36B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4ECEB51BE85D0A00C36B4B /* idevicewallsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idevicewallsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4ECEB91BE85D0A00C36B4B /* idevicewallsappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idevicewallsappUITests.m; sourceTree = "<group>"; };
+		BA4ECEBB1BE85D0A00C36B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4ECE8B1BE85D0A00C36B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEA71BE85D0A00C36B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEB21BE85D0A00C36B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4ECE851BE85D0A00C36B4B = {
+			isa = PBXGroup;
+			children = (
+				BA4ECE901BE85D0A00C36B4B /* idevicewallsapp */,
+				BA4ECEAD1BE85D0A00C36B4B /* idevicewallsappTests */,
+				BA4ECEB81BE85D0A00C36B4B /* idevicewallsappUITests */,
+				BA4ECE8F1BE85D0A00C36B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4ECE8F1BE85D0A00C36B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4ECE8E1BE85D0A00C36B4B /* idevicewallsapp.app */,
+				BA4ECEAA1BE85D0A00C36B4B /* idevicewallsappTests.xctest */,
+				BA4ECEB51BE85D0A00C36B4B /* idevicewallsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4ECE901BE85D0A00C36B4B /* idevicewallsapp */ = {
+			isa = PBXGroup;
+			children = (
+				BA4ECE941BE85D0A00C36B4B /* AppDelegate.h */,
+				BA4ECE951BE85D0A00C36B4B /* AppDelegate.m */,
+				BA4ECE971BE85D0A00C36B4B /* ViewController.h */,
+				BA4ECE981BE85D0A00C36B4B /* ViewController.m */,
+				BA4ECE9A1BE85D0A00C36B4B /* Main.storyboard */,
+				BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */,
+				BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */,
+				BA4ECEA51BE85D0A00C36B4B /* Info.plist */,
+				BA4ECE9D1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld */,
+				BA4ECE911BE85D0A00C36B4B /* Supporting Files */,
+			);
+			path = idevicewallsapp;
+			sourceTree = "<group>";
+		};
+		BA4ECE911BE85D0A00C36B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4ECE921BE85D0A00C36B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA4ECEAD1BE85D0A00C36B4B /* idevicewallsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4ECEAE1BE85D0A00C36B4B /* idevicewallsappTests.m */,
+				BA4ECEB01BE85D0A00C36B4B /* Info.plist */,
+			);
+			path = idevicewallsappTests;
+			sourceTree = "<group>";
+		};
+		BA4ECEB81BE85D0A00C36B4B /* idevicewallsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4ECEB91BE85D0A00C36B4B /* idevicewallsappUITests.m */,
+				BA4ECEBB1BE85D0A00C36B4B /* Info.plist */,
+			);
+			path = idevicewallsappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4ECE8D1BE85D0A00C36B4B /* idevicewallsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4ECEBE1BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsapp" */;
+			buildPhases = (
+				BA4ECE8A1BE85D0A00C36B4B /* Sources */,
+				BA4ECE8B1BE85D0A00C36B4B /* Frameworks */,
+				BA4ECE8C1BE85D0A00C36B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicewallsapp;
+			productName = idevicewallsapp;
+			productReference = BA4ECE8E1BE85D0A00C36B4B /* idevicewallsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4ECEA91BE85D0A00C36B4B /* idevicewallsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4ECEC11BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappTests" */;
+			buildPhases = (
+				BA4ECEA61BE85D0A00C36B4B /* Sources */,
+				BA4ECEA71BE85D0A00C36B4B /* Frameworks */,
+				BA4ECEA81BE85D0A00C36B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4ECEAC1BE85D0A00C36B4B /* PBXTargetDependency */,
+			);
+			name = idevicewallsappTests;
+			productName = idevicewallsappTests;
+			productReference = BA4ECEAA1BE85D0A00C36B4B /* idevicewallsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4ECEB41BE85D0A00C36B4B /* idevicewallsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4ECEC41BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappUITests" */;
+			buildPhases = (
+				BA4ECEB11BE85D0A00C36B4B /* Sources */,
+				BA4ECEB21BE85D0A00C36B4B /* Frameworks */,
+				BA4ECEB31BE85D0A00C36B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4ECEB71BE85D0A00C36B4B /* PBXTargetDependency */,
+			);
+			name = idevicewallsappUITests;
+			productName = idevicewallsappUITests;
+			productReference = BA4ECEB51BE85D0A00C36B4B /* idevicewallsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4ECE861BE85D0A00C36B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = junesiphone;
+				TargetAttributes = {
+					BA4ECE8D1BE85D0A00C36B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PJ68SD7J5J;
+					};
+					BA4ECEA91BE85D0A00C36B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PJ68SD7J5J;
+						TestTargetID = BA4ECE8D1BE85D0A00C36B4B;
+					};
+					BA4ECEB41BE85D0A00C36B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PJ68SD7J5J;
+						TestTargetID = BA4ECE8D1BE85D0A00C36B4B;
+					};
+				};
+			};
+			buildConfigurationList = BA4ECE891BE85D0A00C36B4B /* Build configuration list for PBXProject "idevicewallsapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4ECE851BE85D0A00C36B4B;
+			productRefGroup = BA4ECE8F1BE85D0A00C36B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4ECE8D1BE85D0A00C36B4B /* idevicewallsapp */,
+				BA4ECEA91BE85D0A00C36B4B /* idevicewallsappTests */,
+				BA4ECEB41BE85D0A00C36B4B /* idevicewallsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4ECE8C1BE85D0A00C36B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4ECEA41BE85D0A00C36B4B /* LaunchScreen.storyboard in Resources */,
+				BA4ECEA11BE85D0A00C36B4B /* Assets.xcassets in Resources */,
+				BA4ECE9C1BE85D0A00C36B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEA81BE85D0A00C36B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEB31BE85D0A00C36B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4ECE8A1BE85D0A00C36B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4ECE991BE85D0A00C36B4B /* ViewController.m in Sources */,
+				BA4ECE9F1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld in Sources */,
+				BA4ECE961BE85D0A00C36B4B /* AppDelegate.m in Sources */,
+				BA4ECE931BE85D0A00C36B4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEA61BE85D0A00C36B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4ECEAF1BE85D0A00C36B4B /* idevicewallsappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4ECEB11BE85D0A00C36B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4ECEBA1BE85D0A00C36B4B /* idevicewallsappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4ECEAC1BE85D0A00C36B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4ECE8D1BE85D0A00C36B4B /* idevicewallsapp */;
+			targetProxy = BA4ECEAB1BE85D0A00C36B4B /* PBXContainerItemProxy */;
+		};
+		BA4ECEB71BE85D0A00C36B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4ECE8D1BE85D0A00C36B4B /* idevicewallsapp */;
+			targetProxy = BA4ECEB61BE85D0A00C36B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4ECE9A1BE85D0A00C36B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4ECE9B1BE85D0A00C36B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4ECEA31BE85D0A00C36B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4ECEBC1BE85D0A00C36B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA4ECEBD1BE85D0A00C36B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4ECEBF1BE85D0A00C36B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idevicewallsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA4ECEC01BE85D0A00C36B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = idevicewallsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA4ECEC21BE85D0A00C36B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idevicewallsappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idevicewallsapp.app/idevicewallsapp";
+			};
+			name = Debug;
+		};
+		BA4ECEC31BE85D0A00C36B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = idevicewallsappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idevicewallsapp.app/idevicewallsapp";
+			};
+			name = Release;
+		};
+		BA4ECEC51BE85D0A00C36B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idevicewallsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idevicewallsapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA4ECEC61BE85D0A00C36B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = idevicewallsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = idevicewallsapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4ECE891BE85D0A00C36B4B /* Build configuration list for PBXProject "idevicewallsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4ECEBC1BE85D0A00C36B4B /* Debug */,
+				BA4ECEBD1BE85D0A00C36B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4ECEBE1BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4ECEBF1BE85D0A00C36B4B /* Debug */,
+				BA4ECEC01BE85D0A00C36B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA4ECEC11BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4ECEC21BE85D0A00C36B4B /* Debug */,
+				BA4ECEC31BE85D0A00C36B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA4ECEC41BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4ECEC51BE85D0A00C36B4B /* Debug */,
+				BA4ECEC61BE85D0A00C36B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA4ECE9D1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA4ECE9E1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodel */,
+			);
+			currentVersion = BA4ECE9E1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodel */;
+			path = idevicewallsapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA4ECE861BE85D0A00C36B4B /* Project object */;
+}
