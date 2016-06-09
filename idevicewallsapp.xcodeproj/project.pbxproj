@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA43FAE41D08E7AF00421C8B /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43FAE31D08E7AF00421C8B /* PLViewController.m */; };
+		BA43FAEC1D08E9B200421C8B /* PhotoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA43FAE81D08E9B200421C8B /* PhotoLibrary.framework */; };
+		BA43FAED1D08E9B200421C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA43FAE91D08E9B200421C8B /* Foundation.framework */; };
+		BA43FAEE1D08E9B200421C8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA43FAEA1D08E9B200421C8B /* CoreGraphics.framework */; };
+		BA43FAEF1D08E9B200421C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA43FAEB1D08E9B200421C8B /* UIKit.framework */; };
 		BA4ECE931BE85D0A00C36B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE921BE85D0A00C36B4B /* main.m */; };
 		BA4ECE961BE85D0A00C36B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE951BE85D0A00C36B4B /* AppDelegate.m */; };
 		BA4ECE991BE85D0A00C36B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE981BE85D0A00C36B4B /* ViewController.m */; };
 		BA4ECE9C1BE85D0A00C36B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECE9A1BE85D0A00C36B4B /* Main.storyboard */; };
 		BA4ECE9F1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECE9D1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld */; };
 		BA4ECEA11BE85D0A00C36B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */; };
-		BA4ECEA41BE85D0A00C36B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */; };
 		BA4ECEAF1BE85D0A00C36B4B /* idevicewallsappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECEAE1BE85D0A00C36B4B /* idevicewallsappTests.m */; };
 		BA4ECEBA1BE85D0A00C36B4B /* idevicewallsappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4ECEB91BE85D0A00C36B4B /* idevicewallsappUITests.m */; };
+		BA4ECEC81BE85D1D00C36B4B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEC71BE85D1D00C36B4B /* Entitlements.plist */; };
+		BA4ECECA1BE85E3100C36B4B /* webview.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4ECEC91BE85E3100C36B4B /* webview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA43FAE21D08E79F00421C8B /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		BA43FAE31D08E7AF00421C8B /* PLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		BA43FAE51D08E8DE00421C8B /* PLStaticWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLStaticWallpaperImageViewController.h; sourceTree = "<group>"; };
+		BA43FAE61D08E8F200421C8B /* PLWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLWallpaperImageViewController.h; sourceTree = "<group>"; };
+		BA43FAE81D08E9B200421C8B /* PhotoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoLibrary.framework; path = System/Library/PrivateFrameworks/PhotoLibrary.framework; sourceTree = SDKROOT; };
+		BA43FAE91D08E9B200421C8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA43FAEA1D08E9B200421C8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA43FAEB1D08E9B200421C8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA4ECE8E1BE85D0A00C36B4B /* idevicewallsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idevicewallsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4ECE921BE85D0A00C36B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA4ECE941BE85D0A00C36B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +59,6 @@
 		BA4ECE9B1BE85D0A00C36B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA4ECE9E1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = idevicewallsapp.xcdatamodel; sourceTree = "<group>"; };
 		BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA4ECEA31BE85D0A00C36B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4ECEA51BE85D0A00C36B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA4ECEAA1BE85D0A00C36B4B /* idevicewallsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idevicewallsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4ECEAE1BE85D0A00C36B4B /* idevicewallsappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idevicewallsappTests.m; sourceTree = "<group>"; };
@@ -53,6 +66,8 @@
 		BA4ECEB51BE85D0A00C36B4B /* idevicewallsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idevicewallsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4ECEB91BE85D0A00C36B4B /* idevicewallsappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idevicewallsappUITests.m; sourceTree = "<group>"; };
 		BA4ECEBB1BE85D0A00C36B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4ECEC71BE85D1D00C36B4B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BA4ECEC91BE85E3100C36B4B /* webview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA43FAEE1D08E9B200421C8B /* CoreGraphics.framework in Frameworks */,
+				BA43FAEF1D08E9B200421C8B /* UIKit.framework in Frameworks */,
+				BA43FAEC1D08E9B200421C8B /* PhotoLibrary.framework in Frameworks */,
+				BA43FAED1D08E9B200421C8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +99,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA43FAE71D08E98A00421C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA43FAE81D08E9B200421C8B /* PhotoLibrary.framework */,
+				BA43FAE91D08E9B200421C8B /* Foundation.framework */,
+				BA43FAEA1D08E9B200421C8B /* CoreGraphics.framework */,
+				BA43FAEB1D08E9B200421C8B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA4ECE851BE85D0A00C36B4B = {
 			isa = PBXGroup;
 			children = (
+				BA4ECEC71BE85D1D00C36B4B /* Entitlements.plist */,
 				BA4ECE901BE85D0A00C36B4B /* idevicewallsapp */,
 				BA4ECEAD1BE85D0A00C36B4B /* idevicewallsappTests */,
 				BA4ECEB81BE85D0A00C36B4B /* idevicewallsappUITests */,
 				BA4ECE8F1BE85D0A00C36B4B /* Products */,
+				BA43FAE71D08E98A00421C8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,14 +137,17 @@
 			children = (
 				BA4ECE941BE85D0A00C36B4B /* AppDelegate.h */,
 				BA4ECE951BE85D0A00C36B4B /* AppDelegate.m */,
+				BA43FAE21D08E79F00421C8B /* PLViewController.h */,
+				BA43FAE31D08E7AF00421C8B /* PLViewController.m */,
 				BA4ECE971BE85D0A00C36B4B /* ViewController.h */,
 				BA4ECE981BE85D0A00C36B4B /* ViewController.m */,
 				BA4ECE9A1BE85D0A00C36B4B /* Main.storyboard */,
 				BA4ECEA01BE85D0A00C36B4B /* Assets.xcassets */,
-				BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */,
 				BA4ECEA51BE85D0A00C36B4B /* Info.plist */,
 				BA4ECE9D1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld */,
 				BA4ECE911BE85D0A00C36B4B /* Supporting Files */,
+				BA43FAE51D08E8DE00421C8B /* PLStaticWallpaperImageViewController.h */,
+				BA43FAE61D08E8F200421C8B /* PLWallpaperImageViewController.h */,
 			);
 			path = idevicewallsapp;
 			sourceTree = "<group>";
@@ -120,6 +155,7 @@
 		BA4ECE911BE85D0A00C36B4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA4ECEC91BE85E3100C36B4B /* webview.png */,
 				BA4ECE921BE85D0A00C36B4B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -210,7 +246,11 @@
 				TargetAttributes = {
 					BA4ECE8D1BE85D0A00C36B4B = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = PJ68SD7J5J;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					BA4ECEA91BE85D0A00C36B4B = {
 						CreatedOnToolsVersion = 7.1;
@@ -249,8 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4ECEA41BE85D0A00C36B4B /* LaunchScreen.storyboard in Resources */,
+				BA4ECEC81BE85D1D00C36B4B /* Entitlements.plist in Resources */,
 				BA4ECEA11BE85D0A00C36B4B /* Assets.xcassets in Resources */,
+				BA4ECECA1BE85E3100C36B4B /* webview.png in Resources */,
 				BA4ECE9C1BE85D0A00C36B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +321,7 @@
 				BA4ECE9F1BE85D0A00C36B4B /* idevicewallsapp.xcdatamodeld in Sources */,
 				BA4ECE961BE85D0A00C36B4B /* AppDelegate.m in Sources */,
 				BA4ECE931BE85D0A00C36B4B /* main.m in Sources */,
+				BA43FAE41D08E7AF00421C8B /* PLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +363,6 @@
 				BA4ECE9B1BE85D0A00C36B4B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BA4ECEA21BE85D0A00C36B4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA4ECEA31BE85D0A00C36B4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,10 +452,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = idevicewallsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -429,10 +476,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = idevicewallsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.junesiphone.idevicewallsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -503,6 +566,7 @@
 				BA4ECEC01BE85D0A00C36B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4ECEC11BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +575,7 @@
 				BA4ECEC31BE85D0A00C36B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4ECEC41BE85D0A00C36B4B /* Build configuration list for PBXNativeTarget "idevicewallsappUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +584,7 @@
 				BA4ECEC61BE85D0A00C36B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

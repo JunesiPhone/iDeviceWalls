@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,9 +16,55 @@
 @implementation AppDelegate
 
 
+//attempting badges:(
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self registerForRemoteNotification];
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:1.00f];
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
     return YES;
+}
+
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+
+    ViewController *viewController = (ViewController *)self.window.rootViewController;
+    [viewController fetchNewDataWithCompletionHandler:^(UIBackgroundFetchResult result) {
+        [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+        completionHandler(result);
+    }];
+    
+    
+    }
+
+-(void)registerForRemoteNotification{
+    if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        
+        @try {
+            UIUserNotificationSettings *settings =
+            [UIUserNotificationSettings
+             settingsForTypes: UIUserNotificationTypeBadge
+             categories:nil];
+            
+            [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+
+        }
+        @catch (NSException *exception) {
+        }
+        @finally {
+            return;
+        }
+    }
+    
+
+}
+
+-(void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings{
+
+}
+
+-(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
+}
+
+-(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
